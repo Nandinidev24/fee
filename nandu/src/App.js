@@ -17,7 +17,8 @@ const RatingComponent = ({ message }) => {
 function BasicExample() {
     const [rating, setRating] = useState(0);
     const [message, setMessage] = useState('');
-    const [text, setText] = useState("");
+    const [text, setText] = useState('');
+    const [review, setReview] = useState('');
 
     const handleRatingChange = (newRating) => {
         setRating(newRating);
@@ -46,6 +47,15 @@ function BasicExample() {
         setRating(0);
         setMessage('');
         setText('');
+        setReview('');
+    };
+
+    const handleTextChange = (event) => {
+        setText(event.target.value);
+    };
+
+    const handleSubmit = () => {
+        setReview(`Rating: ${rating}, Review: ${text}`);
     };
 
     return (
@@ -69,13 +79,14 @@ function BasicExample() {
                         </span>
                     ))}
                     <p className='msg'>{message}</p>
-                    <textarea placeholder='Describe your experience' defaultValue={text}></textarea>
-                    <RatingComponent />
-                    <Button>Submit</Button>
+                    <textarea placeholder='Describe your experience' value={text} onChange={handleTextChange}></textarea>
+                    <RatingComponent message={review} />
+                    <Button onClick={handleSubmit}>Submit</Button>
                     <Button variant="secondary" onClick={handleCancel}>Cancel</Button>
                 </Col>
                 <Col></Col>
             </Row>
+            {review && <Row className='justify-content-center'><Col><p>{review}</p></Col></Row>}
         </Container>
     );
 }

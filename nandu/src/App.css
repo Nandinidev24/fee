@@ -1,0 +1,51 @@
+/* Define CSS classes for selected and unselected stars */
+.selected {
+  color: gold;
+  cursor: pointer;
+}
+
+.unselected {
+  color: gray;
+  cursor: pointer;
+}
+
+/* Style the textarea */
+textarea {
+  width: 100%;
+  height: 100px;
+  margin-top: 10px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+p.msg {
+  color: white;
+}
+/* Style the button */
+Button {
+  background-color: #007bff;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+/* Additional styling for the column */
+.title {
+  align-items: center;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #000000;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+@keyframes starAnimation {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.2); }
+  100% { transform: scale(1); }
+}
+button.btn.btn-primary {
+  margin-right: 20px;
+}

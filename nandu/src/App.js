@@ -5,6 +5,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import star from './star.png';
 
 const RatingComponent = ({ message }) => {
     return (
@@ -84,9 +85,27 @@ function BasicExample() {
                     <Button onClick={handleSubmit}>Submit</Button>
                     <Button variant="secondary" onClick={handleCancel}>Cancel</Button>
                 </Col>
-                <Col></Col>
+
+                <Col>
+
+
+                </Col>
+
             </Row>
-            {review && <Row className='justify-content-center'><Col><p>{review}</p></Col></Row>}
+            <Row>
+                <Col>
+                <h2>Dunyia madrchod h</h2>
+                    <span className='rate'><img className='rate' src={star} /></span>
+                    <span className='rate'><img className='rate' src={star} /></span>
+                    <span className='rate'><img className='rate' src={star} /></span>
+                    <span className='rate'><img className='rate' src={star} /></span>
+                    <span className='rate'><img className='rate' src={star} /></span>
+
+<br></br>
+
+
+                </Col>
+            </Row>
         </Container>
     );
 }

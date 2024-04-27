@@ -49,3 +49,7 @@ Button {
 button.btn.btn-primary {
   margin-right: 20px;
 }
+img.rate {
+  width: 25px;
+    margin: 5px;
+}

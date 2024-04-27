@@ -60,7 +60,7 @@ function BasicExample() {
     };
 
     return (
-        <Container >
+        <Container fluid >
             <Row className='justify-content-center'>
                 <Col></Col>
                 <Col className='title justify-content-center'>
@@ -93,16 +93,84 @@ function BasicExample() {
 
             </Row>
             <Row>
-                <Col>
-                <h2>Dunyia madrchod h</h2>
+                <Col className='titlee'>
+                    <h2 className='xt'>Ek Barr Mil TO LO</h2>
+                    <span className='rate'><img className='rate' src={star} /></span>
+                    {/* <span className='rate'><img className='rate' src={star} /></span>
+                    <span className='rate'><img className='rate' src={star} /></span>
+                    <span className='rate'><img className='rate' src={star} /></span>
+                    <span className='rate'><img className='rate' src={star} /></span> */}
+
+                    <br></br>
+                    <p className='xt'>Naraz to nhi ho yrr app </p>
+
+
+                </Col>
+                <Col className='titlee'>
+                    <h2 className='xt'>kab bhi to mill looooooo</h2>
+                    <span className='rate'><img className='rate' src={star} /></span>
+                    <span className='rate'><img className='rate' src={star} /></span>
+                    {/* <span className='rate'><img className='rate' src={star} /></span>
+                    <span className='rate'><img className='rate' src={star} /></span>
+                    <span className='rate'><img className='rate' src={star} /></span> */}
+
+                    <br></br>
+                    <p className='xt'>Hone bhi mat naraz kha jaoge hoke naraz </p>
+
+
+                </Col>
+
+                <Col className='titlee'>
+                    <h2 className='xt'>Avlleen jada star ni bnri ki btadiya trko</h2>
+                    <span className='rate'><img className='rate' src={star} /></span>
+                    <span className='rate'><img className='rate' src={star} /></span>
+                    <span className='rate'><img className='rate' src={star} /></span>
+                    {/* <span className='rate'><img className='rate' src={star} /></span>
+                    <span className='rate'><img className='rate' src={star} /></span> */}
+
+                    <br></br>
+                    <p className='xt'>i will not allow third prsn to talk for meeee remind...</p>
+
+                </Col>
+            </Row>
+            <Row>
+                <Col className='titlee'>
+                    <h2 className='xt'>Bbs meet me tommorow i dont have anytime after this </h2>
                     <span className='rate'><img className='rate' src={star} /></span>
                     <span className='rate'><img className='rate' src={star} /></span>
                     <span className='rate'><img className='rate' src={star} /></span>
                     <span className='rate'><img className='rate' src={star} /></span>
                     <span className='rate'><img className='rate' src={star} /></span>
 
-<br></br>
+                    <br></br>
+                    <p className='xt'>Naraz to nhi ho yrr app </p>
 
+
+                </Col>
+                <Col className='titlee'>
+                    <h2 className='xt'>kab bhi to mill looooooo</h2>
+                    <span className='rate'><img className='rate' src={star} /></span>
+                    <span className='rate'><img className='rate' src={star} /></span>
+                    <span className='rate'><img className='rate' src={star} /></span>
+                    <span className='rate'><img className='rate' src={star} /></span>
+                    <span className='rate'><img className='rate' src={star} /></span>
+
+                    <br></br>
+                    <p className='xt'>Hone bhi mat naraz kha jaoge hoke naraz </p>
+
+
+                </Col>
+
+                <Col className='titlee'>
+                    <h2 className='xt'>Avlleen jada star ni bnri ki btadiya trko</h2>
+                    <span className='rate'><img className='rate' src={star} /></span>
+                    <span className='rate'><img className='rate' src={star} /></span>
+                    <span className='rate'><img className='rate' src={star} /></span>
+                    <span className='rate'><img className='rate' src={star} /></span>
+                    <span className='rate'><img className='rate' src={star} /></span>
+
+                    <br></br>
+                    <p className='xt'>i will not allow third prsn to talk for meeee remind...</p>
 
                 </Col>
             </Row>

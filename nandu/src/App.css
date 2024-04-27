@@ -41,6 +41,15 @@ Button {
   background-color: #000000;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+.titlee{
+  align-items: center;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #000000;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
 @keyframes starAnimation {
   0% { transform: scale(1); }
   50% { transform: scale(1.2); }
@@ -52,4 +61,12 @@ button.btn.btn-primary {
 img.rate {
   width: 25px;
     margin: 5px;
+}
+h2.xt {
+  color: white;
+}p.xt {
+  color: white;
+}
+.titlee.col {
+  margin: 15px;
 }

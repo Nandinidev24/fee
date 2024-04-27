@@ -25,19 +25,19 @@ function BasicExample() {
         setRating(newRating);
         switch (newRating) {
             case 1:
-                setMessage('Nandni not like me');
+                setMessage('I just hated.');
                 break;
             case 2:
-                setMessage('But i like you Nandni ');
+                setMessage('I dont like it.');
                 break;
             case 3:
-                setMessage('But Nandni not love me');
+                setMessage('Average.');
                 break;
             case 4:
-                setMessage('But i love you Nandni');
+                setMessage('Very Good.');
                 break;
             case 5:
-                setMessage('Your Are Mine Take OneStep Forward For Me i Will Do EveryThing For U');
+                setMessage('I just love It.');
                 break;
             default:
                 setMessage('');
@@ -79,9 +79,9 @@ function BasicExample() {
                             &#9733;
                         </span>
                     ))}
-                    <p className='msg'>{message}</p>
+                    {/* <p className='msg'>{message}</p> */}
                     <textarea placeholder='Describe your experience' value={text} onChange={handleTextChange}></textarea>
-                    <RatingComponent message={review} />
+                    <RatingComponent />
                     <Button onClick={handleSubmit}>Submit</Button>
                     <Button variant="secondary" onClick={handleCancel}>Cancel</Button>
                 </Col>
@@ -94,34 +94,31 @@ function BasicExample() {
             </Row>
             <Row>
                 <Col className='titlee'>
-                    <h2 className='xt'>Ek Barr Mil TO LO</h2>
-                    <span className='rate'><img className='rate' src={star} /></span>
-                    {/* <span className='rate'><img className='rate' src={star} /></span>
                     <span className='rate'><img className='rate' src={star} /></span>
                     <span className='rate'><img className='rate' src={star} /></span>
-                    <span className='rate'><img className='rate' src={star} /></span> */}
+                    <span className='rate'><img className='rate' src={star} /></span>
+                    <span className='rate'><img className='rate' src={star} /></span>
+                    {/* <span className='rate'><img className='rate' src={star} /></span> */}
 
                     <br></br>
-                    <p className='xt'>Naraz to nhi ho yrr app </p>
+                    <p className='xt'>Always use travel online to book our holidays so easy to use and they have some great value packages </p>
 
 
                 </Col>
                 <Col className='titlee'>
-                    <h2 className='xt'>kab bhi to mill looooooo</h2>
                     <span className='rate'><img className='rate' src={star} /></span>
                     <span className='rate'><img className='rate' src={star} /></span>
-                    {/* <span className='rate'><img className='rate' src={star} /></span>
                     <span className='rate'><img className='rate' src={star} /></span>
-                    <span className='rate'><img className='rate' src={star} /></span> */}
+                    <span className='rate'><img className='rate' src={star} /></span>
+                    {/* <span className='rate'><img className='rate' src={star} /></span> */}
 
                     <br></br>
-                    <p className='xt'>Hone bhi mat naraz kha jaoge hoke naraz </p>
+                    <p className='xt'>Great services..</p>
 
 
                 </Col>
 
                 <Col className='titlee'>
-                    <h2 className='xt'>Avlleen jada star ni bnri ki btadiya trko</h2>
                     <span className='rate'><img className='rate' src={star} /></span>
                     <span className='rate'><img className='rate' src={star} /></span>
                     <span className='rate'><img className='rate' src={star} /></span>
@@ -129,26 +126,24 @@ function BasicExample() {
                     <span className='rate'><img className='rate' src={star} /></span> */}
 
                     <br></br>
-                    <p className='xt'>i will not allow third prsn to talk for meeee remind...</p>
+                    <p className='xt'>Very fast responses and easy to deal with.</p>
 
                 </Col>
             </Row>
             <Row>
                 <Col className='titlee'>
-                    <h2 className='xt'>Bbs meet me tommorow i dont have anytime after this </h2>
                     <span className='rate'><img className='rate' src={star} /></span>
                     <span className='rate'><img className='rate' src={star} /></span>
                     <span className='rate'><img className='rate' src={star} /></span>
                     <span className='rate'><img className='rate' src={star} /></span>
-                    <span className='rate'><img className='rate' src={star} /></span>
+                    {/* <span className='rate'><img className='rate' src={star} /></span> */}
 
                     <br></br>
-                    <p className='xt'>Naraz to nhi ho yrr app </p>
-
+                    <p className='xt'>Booking got Cancelled but was rescheduled no complaints and everything was good.</p>
+ 
 
                 </Col>
                 <Col className='titlee'>
-                    <h2 className='xt'>kab bhi to mill looooooo</h2>
                     <span className='rate'><img className='rate' src={star} /></span>
                     <span className='rate'><img className='rate' src={star} /></span>
                     <span className='rate'><img className='rate' src={star} /></span>
@@ -156,21 +151,20 @@ function BasicExample() {
                     <span className='rate'><img className='rate' src={star} /></span>
 
                     <br></br>
-                    <p className='xt'>Hone bhi mat naraz kha jaoge hoke naraz </p>
+                    <p className='xt'>Very responsive are holiday run so smoothly without any hassels and we had a fantastic time.</p>
 
 
                 </Col>
 
                 <Col className='titlee'>
-                    <h2 className='xt'>Avlleen jada star ni bnri ki btadiya trko</h2>
+                    <span className='rate'><img className='rate' src={star} /></span>
+                    {/* <span className='rate'><img className='rate' src={star} /></span>
                     <span className='rate'><img className='rate' src={star} /></span>
                     <span className='rate'><img className='rate' src={star} /></span>
-                    <span className='rate'><img className='rate' src={star} /></span>
-                    <span className='rate'><img className='rate' src={star} /></span>
-                    <span className='rate'><img className='rate' src={star} /></span>
+                    <span className='rate'><img className='rate' src={star} /></span> */}
 
                     <br></br>
-                    <p className='xt'>i will not allow third prsn to talk for meeee remind...</p>
+                    <p className='xt'>Not Satisfied.</p>
 
                 </Col>
             </Row>
